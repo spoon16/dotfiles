@@ -21,6 +21,7 @@
   untracked = cyan
 [merge]
   log = true
+	tool = git-opendiff
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "github:"
@@ -33,3 +34,8 @@
   pushInsteadOf = "git://gist.github.com/"
 [url "git://gist.github.com/"]
   insteadOf = "gist:"
+[diff]
+	external = git-opendiff
+[user]
+	name = Eric Schoonover
+	email = erics@capdes.com
