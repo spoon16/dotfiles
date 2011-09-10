@@ -10,6 +10,9 @@ defaults write com.apple.dock orientation left
 # Don't put .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
+# Pin dock to start of the screen edge it is positioned on (left if top/bottom, top if left/right)
+defaults write com.apple.dock pinning start
+
 # Disable menu bar transparency
 defaults write -g AppleEnableMenuBarTransparency -bool false
 
