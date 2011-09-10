@@ -4,6 +4,12 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Enable the 2D Dock
 defaults write com.apple.dock no-glass -bool true
 
+# Left dock
+defaults write com.apple.dock orientation left
+
+# Don't put .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+
 # Disable menu bar transparency
 defaults write -g AppleEnableMenuBarTransparency -bool false
 
