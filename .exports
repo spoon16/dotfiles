@@ -21,4 +21,4 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Amazon Web Services (AWS, EC2)
 export EC2_HOME=~/.ec2
-export PATH=$EC2_HOME/bin:$path
+export PATH=$EC2_HOME/bin:$PATH
