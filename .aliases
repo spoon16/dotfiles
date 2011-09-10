@@ -21,7 +21,7 @@ alias lip="ifconfig | grep -A 5 'en0' | grep 'inet ' | grep -v '127.0.0.1' | cut
 alias flush="dscacheutil -flushcache"
 
 # View HTTP traffic
-alias sniff="sudo ngrep -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
+alias sniff="sudo ngrep -W byline -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -i en0 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
 # Start an HTTP server from a directory
