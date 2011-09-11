@@ -10,11 +10,11 @@ defaults write com.apple.dock no-glass -bool true
 # Left dock
 defaults write com.apple.dock orientation left
 
-# Don't put .DS_Store files on network volumes
-defaults write com.apple.desktopservices DSDontWriteNetworkStores true
-
 # Pin dock to start of the screen edge it is positioned on (left if top/bottom, top if left/right)
 defaults write com.apple.dock pinning start
+
+# Don't put .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 # Disable menu bar transparency
 defaults write -g AppleEnableMenuBarTransparency -bool false
@@ -48,6 +48,9 @@ defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 # Automatically open a new Finder window when a volume is mounted
 defaults write com.apple.frameworks.diskimages auto-open-ro-root -bool true
 defaults write com.apple.frameworks.diskimages auto-open-rw-root -bool true
+
+# Show file extensions in Finder
+defaults write -g AppleShowAllExtensions -bool TRUE
 
 # Show POSIX Path in Finder Window Title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
