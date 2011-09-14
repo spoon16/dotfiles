@@ -9,9 +9,8 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 
-# MacPorts 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export MANPATH=/opt/local/share/man:$MANPATH
+# Homebrew 
+export PATH=/usr/local/bin:$PATH
 
 # User Executables
 export PATH=~/bin:$PATH
@@ -22,3 +21,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 # Amazon Web Services (AWS, EC2)
 export EC2_HOME=~/.ec2
 export PATH=$EC2_HOME/bin:$PATH
+
+# Ruby
+export PATH=/usr/local/Cellar/ruby/1.9.2-p290/bin:$PATH

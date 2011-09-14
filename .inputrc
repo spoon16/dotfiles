@@ -1,6 +1,20 @@
 # Make Tab autocomplete regardless of filename case
 set completion-ignore-case on
 
+# When completion occurs the portion that was not ambiguous is replaced with ... in the output
+set completion-prefix-display-length 2
+
+# Make completions appear immediately with first TAB press (instead of second)
+set show-all-if-ambigous on
+set show-all-if-unmodified on
+
+# Treat underscores and hyphens as equal when performing completion
+# set completion-map-case on
+
+# Bind CNTRL-J/K to scroll through completion options
+# Control-j: menu-complete
+# Control-k: menu-complete-backward
+
 # Append a slash when autocompleting symbolic links to directories
 set mark-symlinked-directories on
 
