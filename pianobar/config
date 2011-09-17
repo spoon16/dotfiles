@@ -1,0 +1,7 @@
+user = erics@capdes.com
+password = bx7nOgmgHVzssevg2dxo
+audio_format = mp3_hifi
+event_command = /Users/eric/bin/pianobar-notify.rb
+volume = 0
+autostart_station = 95064436768784546
+

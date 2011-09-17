@@ -3,12 +3,12 @@
 [core]
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
-  whitespace = fix,space-before-tab,tab-in-indent,trailing-space
+  whitespace = space-before-tab,tab-in-indent,trailing-space
 [color]
   ui = true
 [merge]
   log = true
-	tool = git-opendiff
+  tool = git-opendiff
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "github:"
@@ -21,8 +21,6 @@
   pushInsteadOf = "git://gist.github.com/"
 [url "git://gist.github.com/"]
   insteadOf = "gist:"
-[diff]
-	external = git-opendiff
 [user]
-	name = Eric Schoonover
-	email = erics@capdes.com
+  name = Eric Schoonover
+  email = erics@capdes.com
