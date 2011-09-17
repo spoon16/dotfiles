@@ -1,0 +1,15 @@
+[submodule ".vim_runtime/bundle/command-t"]
+	path = .vim_runtime/bundle/command-t
+	url = https://github.com/wincent/Command-T.git
+[submodule ".vim_runtime/bundle/inkpot"]
+	path = .vim_runtime/bundle/inkpot
+	url = https://github.com/ciaranm/inkpot.git
+[submodule ".vim_runtime/bundle/vim-surround"]
+	path = .vim_runtime/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim_runtime/bundle/vim-fugitive"]
+	path = .vim_runtime/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim_runtime/bundle/vim-rhubarb"]
+	path = .vim_runtime/bundle/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
