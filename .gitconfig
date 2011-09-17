@@ -4,6 +4,7 @@
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
   whitespace = space-before-tab,tab-in-indent,trailing-space
+  autocrlf = input
 [color]
   ui = true
 [merge]
