@@ -3,6 +3,6 @@
 # - Your user specific file (~/.config/fish/<username>.fish)
 # - Your host specific file (~/.config/fish/<hostname>.fish)
 
-set -x EDITOR "/Applications/TextMate.app/Contents/Resources/mate -w"
+set -x EDITOR "~/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
 
 set BROWSER open
