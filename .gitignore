@@ -1,4 +1,10 @@
 target/
+emacs/.smex-items
+emacs/auto-save-list/
+emacs/backups/
+emacs/elpa/
+emacs/places
+emacs/url/
 fish_history
 fishd.*
 *.swp
