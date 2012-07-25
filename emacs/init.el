@@ -54,3 +54,7 @@
 ;; user 10pt Consolas as default font
 (set-face-attribute 'default nil
                     :family "Consolas" :height 130)
+
+;; ===> Start EMACS server so that clients (Terminal app in OSX) can
+;; properly open new buffers in emacs app
+(server-start)
