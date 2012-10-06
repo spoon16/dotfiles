@@ -1,0 +1,2 @@
+alias lsa="ls -AF"
+alias e="emacsclient -t"

@@ -13,11 +13,6 @@
   (when (not (package-installed-p p))
     (package-install p)))
 
-;; ===> Setup environment variables (I would like to figure out how to
-;; use what I already have configured in FISH, but I am not familiar
-;; enough with EMACs just yet)
-(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
-
 ;; ===> Place all backup files in the same place
 ;; Enable backup files
 (setq make-backup-files 1)
